@@ -1,19 +1,56 @@
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #ffffff;
-}
+    background-color: #ffffff;}
 
 a {text-decoration: none;}
 
 ul, ol {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 button {
-    cursor: pointer;
+    cursor: pointer;}
+
+img {display: block;
+    max-width: 100%;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+     margin: 0;
+ }
+
+ .container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+      }
+
+.header-container{
+    display: flex;
 }
 /* header */
+.navigation{
+display: flex;
+}
+
+.logo-item{
+    display: flex;
+    gap: 40px;
+}
+
+.address-item{
+    display: flex;
+    gap: 40px;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
